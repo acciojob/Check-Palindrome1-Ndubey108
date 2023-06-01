@@ -1,7 +1,7 @@
 // complete the given function
 
 function palindrome(str){
-str = str.split("");
+str = str.toLowerCase().split("");
 	while(str.length){
 		if(str[0] === str[str.length-1]){
 		str.shift();
